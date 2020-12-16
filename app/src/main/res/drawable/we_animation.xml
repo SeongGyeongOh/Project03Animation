@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="50dp"
+            android:height="50dp"
+            android:viewportHeight="50"
+            android:viewportWidth="50">
+            <group android:name="we">
+                    <path
+                        android:strokeWidth="1"
+                        android:pathData="M26.04,32.5 L32.515,6.985h-3.64l-4.69,20.72 -5.81,-20.72h-3.5L9.205,27.705 4.41,6.985H0.77L7.315,32.5h3.57L16.59,11.535 22.47,32.5Z"
+                        android:fillColor="#000000"
+                        android:strokeColor="#000000"/>
+                    <path
+                        android:strokeWidth="1"
+                        android:pathData="m38.8849,20.88h13.895v-2.87h-13.895V9.855h14.42v-2.87h-17.675V32.5h18.305v-2.87h-15.05z"
+                        android:fillColor="#000000"
+                        android:strokeColor="#000000"/>
+            </group>
+        </vector>
+    </aapt:attr>
+
+    <target android:name="we">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:duration="2000"
+                android:propertyName="translateX"
+                android:repeatCount="0"
+                android:startDelay="500"
+                android:valueFrom="-50"
+                android:valueTo="0" />
+        </aapt:attr>
+    </target>
+</animated-vector>
